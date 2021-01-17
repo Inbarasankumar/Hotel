@@ -1,1 +1,1 @@
-# HotelName
+# Hotel
