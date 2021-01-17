@@ -29,7 +29,6 @@ p {
   max-width: 1100px;
   margin: auto;
   padding: 0 20px;
-  overflow: auto;
 }
 
 #navbar {
@@ -66,4 +65,81 @@ p {
 #navbar ul li .current {
   background: #444;
   color: #f7c08a;
+}
+
+#showcase {
+  background: url(../img/showcase.jpg) no-repeat center center/cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+.text-primary {
+  color: #f7c08a;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #333;
+  background: #f7c08a;
+}
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  min-height: 100%;
+  background: url("../img/photo-1.jpg") no-repeat;
+  width: 50%;
+}
+
+#home-info .info-content {
+  float: right;
+  height: 100%;
+  text-align: center;
+  width: 50%;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
 }
